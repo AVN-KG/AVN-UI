@@ -1,0 +1,2 @@
+import{A as o,M as t}from"./AppLogo.3641552c.js";/* empty css              */import{j as a}from"./jsx-runtime.c65a79db.js";import"./styled-components.browser.esm.42759d77.js";import"./iframe.66c1ecdf.js";const i={title:"Design AVN-UI/AppLogo",component:o},l={},m={args:{logo_path:"https://workplace.avn.kg/mobile-logo.png"}},c={args:{app_logo:a(t,{})}},g=["Default","SuccessVariant","ChildElem"];export{c as ChildElem,l as Default,m as SuccessVariant,g as __namedExportsOrder,i as default};
+//# sourceMappingURL=AppLogo.stories.2729cf18.js.map
