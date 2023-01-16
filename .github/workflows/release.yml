@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: "lts/*"
       - name: Install dependencies
-        uses: AVN-KG/AVN-UI@v1
+        uses: AVN-KG/AVN-UI@v0.0.1
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
