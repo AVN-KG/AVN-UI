@@ -1,5 +1,5 @@
 {
-  "name": "avn-ui",
+  "name": "@avn/avn-ui",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
