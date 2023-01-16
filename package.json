@@ -1,6 +1,6 @@
 {
   "name": "@avn/avn-ui",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "scripts": {
     "dev": "vite",
     "build:component": "tsc && vite build",
@@ -9,34 +9,12 @@
     "storybook": "start-storybook -p 6006",
     "copy": "xcopy /e /v src\\index.css dist\\",
     "build-storybook": "build-storybook",
-    "build": "npm run build:component && npm run copy"
+    "build": "npm run build:component && npm run copy",
+    "semantic-release": "semantic-release"
   },
-  "dependencies": {
-    "@types/react-datepicker": "^4.8.0",
-    "@types/react-select": "^5.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.3",
-    "styled-components": "^5.3.6"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@storybook/addon-actions": "^6.5.12",
-    "@storybook/addon-essentials": "^6.5.12",
-    "@storybook/addon-interactions": "^6.5.12",
-    "@storybook/addon-links": "^6.5.12",
-    "@storybook/builder-vite": "^0.2.3",
-    "@storybook/react": "^6.5.12",
-    "@storybook/testing-library": "^0.0.13",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@types/styled-components": "^5.1.26",
-    "@vitejs/plugin-react": "^2.1.0",
-    "babel-loader": "^8.2.5",
-    "json": "^11.0.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.1.0",
-    "vite-plugin-dts": "^1.5.0"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "license": "MIT",
   "files": [
@@ -51,5 +29,12 @@
       "require": "./dist/avn-ui.umd.js"
     },
     "./dist/index.css": "./dist/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AVN-KG/AVN_UI.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^20.0.2"
   }
 }
