@@ -1,5 +1,5 @@
 {
-  "name": "@avn/avn-ui",
+  "name": "avn-ui",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
@@ -30,6 +30,7 @@
     },
     "./dist/index.css": "./dist/index.css"
   },
+  "author": "avn",
   "repository": {
     "type": "git",
     "url": "https://github.com/AVN-KG/AVN_UI.git"
