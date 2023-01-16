@@ -1,11 +1,10 @@
 {
-  "name": "@avn/avn-ui",
-  "version": "1.0.0",
+  "name": "avn-ui",
+  "version": "1.0.2",
   "scripts": {
     "dev": "vite",
     "build:component": "tsc && vite build",
     "preview": "vite preview",
-    "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\"",
     "storybook": "start-storybook -p 6006",
     "copy": "xcopy /e /v src\\index.css dist\\",
     "build-storybook": "build-storybook",
